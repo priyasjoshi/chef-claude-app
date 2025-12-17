@@ -22,29 +22,32 @@ Frontend is built with **React + Vite**
 ```bash
 git clone https://github.com/priyasjoshi/chef-claude-app.git
 cd chef-claude-app
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 In the project root, run:
 
 ```bash
 npm install
+```
 
-3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 
 Edit .env and add your Hugging Face token:
 HF_ACCESS_TOKEN=hf_your_token_here
 
-4. Run the Project
+### 4. Run the Project
 ```bash
 npm start
+```
 
-5. Usage
+### 5. Usage
 
-Open the frontend in your browser.
+- Open the frontend in your browser.
 
-Enter a list of ingredients.
+- Enter a list of ingredients.
 
-Click Generate.
+- Click Generate.
 
-The recipe will be displayed below the input.
+- The recipe will be displayed below the input.
